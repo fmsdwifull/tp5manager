@@ -1,11 +1,11 @@
 <?php
 namespace app\demo\controller;
-use app\common\controller\BaseAdmin;
+use app\demo\common\BaseDemo;
 use think\View;
 /**
 测试类
 ***/
-class Test extends BaseAdmin{
+class Test extends BaseDemo{
 	public function index() 
 	{
 		//echo "-------";
