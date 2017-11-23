@@ -129,6 +129,7 @@
                 //alert(data[0].name);
                 $.each(data, function(index, val) {  
                 var $tr = $("<tr>"+
+               "<td><input type=\"checkbox\"   name=\"ck[]\" onclick=\"doCheck(this)\"></td>"+
         "<td style=\"display:none;\">"+val.user_id+"</td>"+
         "<td>"+val.name+"</td>"+
         "<td>"+val.address+"</td>"+
@@ -144,8 +145,36 @@
             error:function(){}
         });       
     }
-
-    
+    function doCheck(r)
+    {
+         if($(r).attr("checked"))  
+         {
+            $(r).removeAttr("checked");        
+        }else{
+           $(r).attr("checked",'true');  
+       }
+        //console.info(r.parentNode.parentNode.rowIndex);
+    }
+    function getAllRows()
+    {
+    $("#tb").find("tr").each(function(index,val){
+        //alert(index);
+        console.info(val);
+        alert($(val).find("input").eq(0).attr('checked'));
+        //$('#tb).find("tr").eq(index).find("td").eq(1).html();
+        //var tdArr = $(this).children();
+        //console.info(tdArr);
+        
+        //var history_income_type = tdArr.eq(0).find('input').val();//收入类别
+        //var history_income_money = tdArr.eq(1).find('input').val();//收入金额
+        //var history_income_remark = tdArr.eq(2).find('input').val();//    备注
+        
+        //alert(history_income_type);
+        //alert(history_income_money);
+        //alert(history_income_remark);
+        
+    });
+    }
     
 </script>
 <div class="container" style="min-width: 1200px;">
@@ -158,6 +187,8 @@
             <span class="input-group-btn">  
                <button class="btn btn-info btn-search"  id="refresh_button" onclick="search()">查找</button>  
                <button class="btn btn-info btn-search"  data-toggle="modal"  data-target="#addUserModal" style="margin-left:3px">添加</button>  
+               <button class="btn btn-info "  data-toggle="modal"  onclick="getAllRows()" style="margin-left:3px">获取</button>  
+            
             </span>  
         </div>  
         <!--<div class="form-group ">
@@ -181,6 +212,8 @@
     <table class="table table-hover table-bordered" id="tb" >
         <thead>
             <tr>
+                <th><input type="checkbox" id="registCheckbox" onclick="doCheck(this)"></th>
+                
                 <th style="display:none;">用户id</th>
                 <th>用户名</th>
                 <th>地址</th>
@@ -191,6 +224,7 @@
         <tbody>
             <!-- BEGIN list -->
             <tr>
+                <td><input type="checkbox" name="ck[]" value="{$user_id}"  checked="checked"  onclick="doCheck(this)"></td>
                 <td  style="display:none;">{$user_id}</td>
                 <td>{$name}</td>
                 <td>{$address}</td>
