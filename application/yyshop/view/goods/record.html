@@ -1,0 +1,129 @@
+{layout name="layout" /}
+<script type="text/javascript">
+    $(function(){
+        var $btn=$("#btn");
+        $btn.on(
+            "click",function(){            
+                 var formData=$("#googff").serialize();
+                 var submitData=decodeURIComponent(formData,true);
+
+                 //alert(formData);
+                 //alert(submitData);
+                 $.ajax({
+                     url:"addRecord",
+                     data:{"xxx":submitData},
+                     type:"post",
+                    success:function(data){
+                        //alert("----------");
+                        //window.location.reload(true);
+                        $('#googdlg').modal('hide');
+                    }
+                  })
+        })
+    })
+</script>
+<table class="table table-hover">
+  <caption>其他平台宝贝精选</caption>
+  <thead>
+    <tr>
+      <th>编号</th>
+      <th>商品货号</th>
+      <th>平台</th>
+      <th>宝贝名称</th>
+      <th>宝贝地址</th>
+      <th>上架时间</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+      {volist name="list" id="data"}
+            <tr>
+                <td>{$data.tbr_id}</td>
+                <td>{$data.tbr_goodno}</td>
+                <td>{$data.tbr_platform}</td>
+                <td>{$data.tbr_name}</td>
+                <td>{$data.tbr_url}</td>
+                <td>{$data.tbr_time}</td>
+                <td>{$data.tbr_remark}</td>              
+            </tr>
+    {/volist}
+  </tbody>
+</table>
+<div style='margin-left:1000px'>
+    <!--
+    <button type="button"  onclick="addGood()"  class="btn btn-primary btn-sm">添加</button>
+    -->
+    <button type="button"   class="btn btn-primary btn-sm"  data-toggle="modal" data-target="#googdlg">添加</button>
+</div>
+<div class="modal fade" id="googdlg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header ">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">添加宝贝库存</h4>
+            </div>
+            <div class="modal-body">
+                
+                <form class="form-horizontal" id="googff"  role="form ">
+                   <!--
+                    <div class="form-group">
+                      <label for="name">名称</label>
+                      <input type="text" class="form-control" id="name" placeholder="请输入名称">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputfile">文件输入</label>
+                      <input type="file" id="inputfile">
+                      <p class="help-block">这里是块级帮助文本的实例。</p>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">请打勾
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">提交</button>
+                -->
+                    <div class="form-group ">
+                      <label  class="col-sm-2 control-label" >货号</label>
+                       <div class="col-sm-10">
+                            <input type="text" class="form-control" name="tbr_goodno" id="tbr_goodno" placeholder="请输入货号">
+                        </div>    
+                    </div>
+                    <div class="form-group">
+                      <label  class="col-sm-2 control-label">货源平台</label>
+                        <div class="col-sm-10">
+                            <select  name="tbr_platform" class="form-control ">
+                                  <option value="淘宝">淘宝</option>
+                                  <option value="拼多多">拼多多</option>
+                                  <option value="京东">京东</option>
+                                  <option value="蘑菇街">蘑菇街</option>
+                            </select>
+                        </div>  
+                    </div>
+                    <div class="form-group">
+                      <label  class="col-sm-2 control-label">宝贝名称</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"  name="tbr_name"    id="tbr_name" placeholder="请输入宝贝名称">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">宝贝链接</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"  name="tbr_url"   id="tbr_url" placeholder="请输入宝贝链接">
+                        </div>    
+                    </div>
+                    <div class="form-group">
+                      <label  class="col-sm-2 control-label">备注</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" name="tbr_remark" id="tbr_remark" placeholder="请输入备注">
+                      </div>
+                    </div>             
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" id="btn"  class="btn btn-primary">提交更改</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+

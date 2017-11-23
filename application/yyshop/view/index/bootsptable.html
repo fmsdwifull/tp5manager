@@ -1,0 +1,48 @@
+{layout name="layout" /}
+<script>  
+    $(function () {  
+        var $table = $('#table');  
+        //$table.bootstrapTable({data:[]});  
+  
+        $.ajax({  
+            url: 'getBsTableData',  
+            type: 'post',  
+            dataType: 'json',  
+            beforeSend: function () {  
+                $('#table').append('<div class="loader"><div class="loader-inner ball-pulse"><div></div><div></div><div></div></div></div>');  
+            },  
+            success: function (d) {  
+                setTimeout(function () {  
+                    $('#table>div.loader').remove();  
+                    $table.bootstrapTable({  
+                        data: d  
+                    });  
+                }, 2000);  
+            }  
+        });  
+  
+        /*$table.bootstrapTable({  
+            data: [{  
+                "id": 0,  
+                "name": "Item 0",  
+                "active": 0,  
+                "user_id": 0,  
+                "no_of_reports": 0  
+            }]  
+        });*/  
+    });  
+</script>  
+<div class="container">  
+    <table id="table" class="table table-bordered">  
+        <thead>  
+        <tr>  
+            <th data-field="id">ID</th>  
+            <th data-field="name">Item Name</th>  
+            <th data-field="active">Item Price</th>  
+            <th data-field="user_id">Item Price</th>  
+            <th data-field="no_of_reports">Item Price</th>  
+        </tr>  
+        </thead>  
+    </table>  
+</div>  
+
