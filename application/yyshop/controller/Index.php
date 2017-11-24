@@ -96,4 +96,24 @@ class Index extends Base
 
         echo json_encode($res);  
     }
+    public function tradeList()
+    {
+       $res = array(  
+            array('id' => 3, 'liushuiid' => '444', 'receivetime' => 0, 'price' => 1, 'coin_credit' => 0, 'bill_credit' => 0, 'changes' => 0, 'tradetype' => 0, 'goodmachineid' => 0, 'inneridname' => 0, 'goodsName' => 0, 'changestatus' => 0, 'sendstatus' => 0),  
+            array('id' => 4, 'liushuiid' => '444', 'receivetime' => 0, 'price' => 1, 'coin_credit' => 0, 'bill_credit' => 0, 'changes' => 0, 'tradetype' => 0, 'goodmachineid' => 0, 'inneridname' => 0, 'goodsName' => 0, 'changestatus' => 0, 'sendstatus' => 0),  
+            array('id' => 33, 'liushuiid' => '444', 'receivetime' => 0, 'price' => 1, 'coin_credit' => 0, 'bill_credit' => 0, 'changes' => 0, 'tradetype' => 0, 'goodmachineid' => 0, 'inneridname' => 0, 'goodsName' => 0, 'changestatus' => 0, 'sendstatus' => 0)
+        );  
+       $total= 3;
+        $json='{"total":'.$total.',"rows":'.json_encode($res).'}';
+            echo $json;   
+    }
+    
+    public function bootspLayout()
+    {
+        return $this->fetch();
+    }
+    public function bootspLayout2()
+    {
+        return $this->fetch();
+    }    
 }
