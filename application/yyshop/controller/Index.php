@@ -116,4 +116,8 @@ class Index extends Base
     {
         return $this->fetch();
     }    
+    public function bootspAdminLayout()
+    {
+        return $this->fetch();
+    }        
 }
