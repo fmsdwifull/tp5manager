@@ -1,0 +1,65 @@
+[ 2017-12-15T13:35:50+08:00 ] 10.20.65.205 114.95.185.185 GET /tp5manager/public/index.php/yyshop/index/bootsplayout2
+[ log ] 116.236.115.125:9000/tp5manager/public/index.php/yyshop/index/bootsplayout2 [运行时间：0.016954s][吞吐率：58.98req/s] [内存消耗：1,858.41kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'index',
+    2 => 'bootsplayout2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.236.115.125:9000',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0 FirePHP/0.7.4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'cna=UVtjEqR9CGUCAXTiNjdVF/tu; isg=AsTEszP_QqXThvbpDrkgPpCOlkJ2dVky7o4VTt5l1w9SCWTTBu241_rpPboK; _umdata=ED82BDCEC1AA6EB9D0EF7E57DDD3BF8A4D8E7519C9CE00CC2BEA8195B9F1B5B7C559BFA724D7ACB1CD43AD3E795C914C559F65888E8CD38E856E78DAEF8F4C5B; PHPSESSID=g320p0g4g6ovoh8qfqnts57432',
+  'x-insight' => 'activate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Index->bootspLayout2[ /var/www/html/tp5manager/application/yyshop/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/index/bootsplayout2.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-15T13:35:51+08:00 ] 10.20.65.205 114.95.185.185 GET /tp5manager/public/index.php/yyshop/index/bootsplayout2
+[ log ] 116.236.115.125:9000/tp5manager/public/index.php/yyshop/index/bootsplayout2 [运行时间：0.014426s][吞吐率：69.32req/s] [内存消耗：1,656.04kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'index',
+    2 => 'bootsplayout2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '116.236.115.125:9000',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0 FirePHP/0.7.4',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://116.236.115.125:9000/tp5manager/public/index.php/yyshop/index/bootsplayout2',
+  'cookie' => 'cna=UVtjEqR9CGUCAXTiNjdVF/tu; isg=AsTEszP_QqXThvbpDrkgPpCOlkJ2dVky7o4VTt5l1w9SCWTTBu241_rpPboK; _umdata=ED82BDCEC1AA6EB9D0EF7E57DDD3BF8A4D8E7519C9CE00CC2BEA8195B9F1B5B7C559BFA724D7ACB1CD43AD3E795C914C559F65888E8CD38E856E78DAEF8F4C5B; PHPSESSID=g320p0g4g6ovoh8qfqnts57432',
+  'x-insight' => 'activate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Index->bootspLayout2[ /var/www/html/tp5manager/application/yyshop/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/index/bootsplayout2.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

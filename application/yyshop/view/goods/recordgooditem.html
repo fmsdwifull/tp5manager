@@ -1,0 +1,19 @@
+{layout name="layout" /}
+<script type="text/javascript">
+    function formSubmit()
+    {
+      $("#urlff").submit();
+    }
+</script>
+<form id='urlff'  action="catchGoodInfo" method="post">
+    <p>请输入网页地址：<input type="text" name="url" /></p>
+    <p> 
+        <textarea rows="10" cols="200">
+        </textarea>
+    </p>
+    <!--
+    <p>$info</p>
+    -->
+    <p><input type="button" onclick="formSubmit()" value="抓取"></p>
+</form>
+
