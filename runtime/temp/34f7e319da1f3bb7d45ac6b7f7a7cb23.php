@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"/var/www/html/tp5manager/public/../application/demo/view/test/index.html";i:1506404368;s:68:"/var/www/html/tp5manager/public/../application/demo/view/layout.html";i:1506404368;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"/var/www/html/tp5manager/public/../application/demo/view/test/index.html";i:1536025560;s:68:"/var/www/html/tp5manager/public/../application/demo/view/layout.html";i:1536025560;}*/ ?>
 <!DOCTYPE html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />

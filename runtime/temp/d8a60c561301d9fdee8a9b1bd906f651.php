@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:82:"/var/www/html/tp5manager/public/../application/yyshop/view/index/bootsplayout.html";i:1512541339;s:70:"/var/www/html/tp5manager/public/../application/yyshop/view/layout.html";i:1512541339;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:82:"/var/www/html/tp5manager/public/../application/yyshop/view/index/bootsplayout.html";i:1536025560;s:70:"/var/www/html/tp5manager/public/../application/yyshop/view/layout.html";i:1536025560;}*/ ?>
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />

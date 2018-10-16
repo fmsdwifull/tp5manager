@@ -67,18 +67,18 @@
     function check_form()
     {
         alert("xxx");
-    var user_id = $.trim($('#user_id').val());
-    var act = $.trim($('#act').val());
-    if (!user_id)
-    {
-    alert('用户ID不能为空！');
-    return false;
-    }
-    var form_data = $('#form_data').serialize();
-    // 异步提交数据到action/add_action.php页面
-    $.ajax(
-    {
-    url: "bootDealData",
+        var user_id = $.trim($('#user_id').val());
+        var act = $.trim($('#act').val());
+        if (!user_id)
+        {
+    		alert('用户ID不能为空！');
+    		return false;
+    	}
+    	var form_data = $('#form_data').serialize();
+    	// 异步提交数据到action/add_action.php页面
+    	$.ajax(
+    	{
+    	    url: "bootDealData",
             data:{"form_data":form_data, "act":act},
             type: "post",
             beforeSend:function()

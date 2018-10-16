@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"/var/www/html/tp5manager/public/../application/yyshop/view/admin/left.html";i:1512541339;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"/var/www/html/tp5manager/public/../application/yyshop/view/admin/left.html";i:1536025560;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head>
@@ -20,10 +20,13 @@
         <script type="text/javascript" src="<?php echo \think\Config::get('js'); ?>bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php echo \think\Config::get('js'); ?>bootstrap-table.min.js"></script>         
         <script language=javascript>
-
         </script>
     </head>
     <body>
+             <!--
+                 折叠，或展开后，图标一直是显示向下，是一个需要修正的地方，方法可以采用^M
+                 show.bs.collapse 和 hidden.bs.collapse 事件进行解决^M
+              -->
             <div id="left" class="left" >
                 <!--nav-tabs  和 nav-pills -->
             <ul id="main-nav" class="nav nav-pills nav-stacked">
@@ -69,4 +72,8 @@
                 </li>                
             </ul>
     </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> d470a9298488d64c7d1320f7440fe40433bf790e

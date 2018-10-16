@@ -38,8 +38,9 @@ class Goods extends Base
     }
     public function addRecord()
     {
-        //trace($_POST['xxx']);
-        //:\Think\Log::write($_POST['xxx'],"-------------dddddddddddddd---------------------");
+	
+        trace($_POST['xxx']);
+        \Think\Log::write($_POST['xxx'],"-------------dddddddddddddd---------------------");
         return true;
     }
 }

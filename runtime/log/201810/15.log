@@ -1,0 +1,723 @@
+[ 2018-10-15T11:18:42+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/demo/test
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/demo/test [运行时间：0.012011s][吞吐率：83.26req/s] [内存消耗：1,122.55kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'demo',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\demo\controller\Test->index[ /var/www/html/tp5manager/application/demo/controller/Test.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/demo/view/test/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:21+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/index
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/index [运行时间：0.011644s][吞吐率：85.88req/s] [内存消耗：1,121.13kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Admin->index[ /var/www/html/tp5manager/application/yyshop/controller/Admin.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/admin/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:22+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/head
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/head [运行时间：0.011437s][吞吐率：87.43req/s] [内存消耗：1,120.40kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'head',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Admin->head[ /var/www/html/tp5manager/application/yyshop/controller/Admin.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/admin/head.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:22+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/left
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left [运行时间：0.011900s][吞吐率：84.03req/s] [内存消耗：1,124.09kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'left',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Admin->left[ /var/www/html/tp5manager/application/yyshop/controller/Admin.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/admin/left.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:22+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/right
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right [运行时间：0.011106s][吞吐率：90.04req/s] [内存消耗：1,123.59kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'right',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Admin->right[ /var/www/html/tp5manager/application/yyshop/controller/Admin.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/admin/right.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:22+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/admin.css
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/admin.css [运行时间：0.012213s][吞吐率：81.88req/s] [内存消耗：1,176.02kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'admin.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:22+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/admin_p.gif
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/admin_p.gif [运行时间：0.012250s][吞吐率：81.63req/s] [内存消耗：1,176.07kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'admin_p.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:22+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/title_bg1.jpg
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/title_bg1.jpg [运行时间：0.012237s][吞吐率：81.72req/s] [内存消耗：1,176.07kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'title_bg1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:22+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/shadow_bg.jpg
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/shadow_bg.jpg [运行时间：0.011724s][吞吐率：85.30req/s] [内存消耗：1,176.07kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'shadow_bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:22:22+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/title_bg2.jpg
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/title_bg2.jpg [运行时间：0.011887s][吞吐率：84.12req/s] [内存消耗：1,176.07kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'title_bg2.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:45+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/charts.html
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/charts.html [运行时间：0.012937s][吞吐率：77.30req/s] [内存消耗：1,176.45kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'charts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/index
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/index [运行时间：0.011329s][吞吐率：88.27req/s] [内存消耗：1,121.34kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Admin->index[ /var/www/html/tp5manager/application/yyshop/controller/Admin.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/admin/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/head
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/head [运行时间：0.011520s][吞吐率：86.81req/s] [内存消耗：1,120.40kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'head',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Admin->head[ /var/www/html/tp5manager/application/yyshop/controller/Admin.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/admin/head.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/left
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left [运行时间：0.011125s][吞吐率：89.89req/s] [内存消耗：1,124.09kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'left',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Admin->left[ /var/www/html/tp5manager/application/yyshop/controller/Admin.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/admin/left.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/right
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right [运行时间：0.011572s][吞吐率：86.41req/s] [内存消耗：1,123.59kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'right',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\Admin->right[ /var/www/html/tp5manager/application/yyshop/controller/Admin.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/admin/right.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/admin.css
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/admin.css [运行时间：0.011905s][吞吐率：84.00req/s] [内存消耗：1,176.02kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'admin.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/admin_p.gif
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/admin_p.gif [运行时间：0.012522s][吞吐率：79.86req/s] [内存消耗：1,176.07kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'admin_p.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/title_bg1.jpg
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/title_bg1.jpg [运行时间：0.012192s][吞吐率：82.02req/s] [内存消耗：1,176.07kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'title_bg1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/shadow_bg.jpg
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/shadow_bg.jpg [运行时间：0.011879s][吞吐率：84.18req/s] [内存消耗：1,176.07kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'shadow_bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:48+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/admin/title_bg2.jpg
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/title_bg2.jpg [运行时间：0.011870s][吞吐率：84.25req/s] [内存消耗：1,176.07kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'admin',
+    2 => 'title_bg2.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/right',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:57+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/user/manager
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/user/manager [运行时间：0.011242s][吞吐率：88.95req/s] [内存消耗：1,120.22kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'user',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\User->manager[ /var/www/html/tp5manager/application/yyshop/controller/User.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/user/manager.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:58+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/user/menu
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/user/menu [运行时间：0.010845s][吞吐率：92.21req/s] [内存消耗：1,120.22kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'user',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\User->menu[ /var/www/html/tp5manager/application/yyshop/controller/User.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/user/menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:32:59+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/user/manager
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/user/manager [运行时间：0.010947s][吞吐率：91.35req/s] [内存消耗：1,120.22kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'user',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\User->manager[ /var/www/html/tp5manager/application/yyshop/controller/User.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/user/manager.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-10-15T11:33:00+08:00 ] 10.20.65.202 180.164.65.100 GET /tp5manager/public/index.php/yyshop/user/menu
+[ log ] 116.236.115.123:8080/tp5manager/public/index.php/yyshop/user/menu [运行时间：0.010911s][吞吐率：91.65req/s] [内存消耗：1,120.22kb] [文件加载：36]
+[ info ] [ LANG ] /var/www/html/tp5manager/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yyshop',
+    1 => 'user',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://116.236.115.123:8080/tp5manager/public/index.php/yyshop/admin/left',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '116.236.115.123:8080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\yyshop\controller\User->menu[ /var/www/html/tp5manager/application/yyshop/controller/User.php ]
+[ info ] [ VIEW ] /var/www/html/tp5manager/public/../application/yyshop/view/user/menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

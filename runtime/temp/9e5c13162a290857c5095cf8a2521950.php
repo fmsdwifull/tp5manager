@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/var/www/html/tp5manager/public/../application/yyshop/view/admin/index.html";i:1512541339;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/var/www/html/tp5manager/public/../application/yyshop/view/admin/index.html";i:1536025560;}*/ ?>
 <!doctype html public "-//w3c//dtd xhtml 1.0 frameset//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-frameset.dtd">
 <html>
     <head>

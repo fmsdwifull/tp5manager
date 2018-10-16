@@ -20,6 +20,7 @@ class Index extends Base
     }
     public function bootDealData()
     {
+	trace($_POST);
         $act       = $_POST['act'];
         $id        = $_POST['id'];
         $user_id   = (int)$_POST['user_id'];

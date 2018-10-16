@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:80:"/var/www/html/tp5manager/public/../application/yyshop/view/index/bootsplist.html";i:1512541339;s:70:"/var/www/html/tp5manager/public/../application/yyshop/view/layout.html";i:1512541339;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:80:"/var/www/html/tp5manager/public/../application/yyshop/view/index/bootsplist.html";i:1539699032;s:70:"/var/www/html/tp5manager/public/../application/yyshop/view/layout.html";i:1536025560;}*/ ?>
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -86,18 +86,18 @@
     function check_form()
     {
         alert("xxx");
-    var user_id = $.trim($('#user_id').val());
-    var act = $.trim($('#act').val());
-    if (!user_id)
-    {
-    alert('用户ID不能为空！');
-    return false;
-    }
-    var form_data = $('#form_data').serialize();
-    // 异步提交数据到action/add_action.php页面
-    $.ajax(
-    {
-    url: "bootDealData",
+        var user_id = $.trim($('#user_id').val());
+        var act = $.trim($('#act').val());
+        if (!user_id)
+        {
+    		alert('用户ID不能为空！');
+    		return false;
+    	}
+    	var form_data = $('#form_data').serialize();
+    	// 异步提交数据到action/add_action.php页面
+    	$.ajax(
+    	{
+    	    url: "bootDealData",
             data:{"form_data":form_data, "act":act},
             type: "post",
             beforeSend:function()
